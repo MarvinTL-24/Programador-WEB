@@ -1,0 +1,105 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Tabela</title>
+        <style>
+            /*Todas com a presença de '{}' são tags para formatação*/
+            table{
+                border-collapse: collapse; /*bordas juntas*/
+                /*Organizar as margens*/
+                margin-top: 3%;
+                margin-right: 2%;
+                margin-left: 2%;
+            }
+            th{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: x-large;
+                background-color: #a9d1b8;
+            }
+            table,td,th{
+                text-align: center;
+                min-width: 95%; /*tamanho minimo*/
+                border: 1px solid;
+                padding: 5px; /*espaçamento diagonal de tabelas*/
+            }
+            tr:nth-child(even){ /*revezamento de coloração em linhas*/
+                background-color: #a9e2bf;
+            }
+            tr:hover{ /*Mause alterando o que visualiza*/
+                background-color: #45a369;
+                color: #5147d4;
+            }
+            img{
+                /*visualização da imagem e sua formatação*/
+                width: 40px; 
+                height: 30px;
+                vertical-align: middle;
+            }
+            .titulo{
+                /*controlar a class especificada*/
+                font-weight: bolder;
+            }
+            /*OBS: O uso de ".." faz com que procure uma pasta no seu arquivo*/
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead> 
+                <tr> 
+                    <th colspan="6">Quadro de medalhas paraolimpiadas</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="Titulo">Colocação</td>
+                    <td class="Titulo">País</td>
+                    <td class="Titulo">Ouro</td>
+                    <td class="Titulo">Prata</td>
+                    <td class="Titulo">Bronze</td>
+                    <td class="Titulo">Total</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><img src="../IMG/china.png"></td>
+                    <td>94</td>
+                    <td>76</td>
+                    <td>50</td>
+                    <td>220</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="../IMG/grã-bretanha.png"></td>
+                    <td>49</td>
+                    <td>44</td>
+                    <td>31</td>
+                    <td>124</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="../IMG/EUA.png"></td>
+                    <td>36</td>
+                    <td>42</td>
+                    <td>27</td>
+                    <td>105</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><img src="../IMG/paises baixos.png" ></td>
+                    <td>27</td>
+                    <td>17</td>
+                    <td>12</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><img src="../IMG/brasil.png"></td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>38</td>
+                    <td>89</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

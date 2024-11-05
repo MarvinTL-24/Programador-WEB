@@ -1,0 +1,65 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Informações</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <h2>Cadastro de Funcionario</h2>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <table>
+                        <tr>
+                         <td>Nome*</td>
+                         <td colspan="3"><input autofocus type="text" placeholder="Digite seu Nome" required></td>
+                        </tr>
+                        <tr>
+                            <td>RG*</td>
+                            <td><input type="text" placeholder="XXXXXXXXX-X" required></td>
+                            <td>CPF*</td>
+                            <td><input type="text" placeholder="XXX.XXX.XXX-XX"required></td>
+                        </tr>
+                        <tr>
+                            <td>Celular(whatsapp)*:</td>
+                            <td><input type="tel" placeholder="(88)XXXXX.XXXX" required></td>
+                            <td>Telefone</td>
+                            <td><input type="tel" placeholder="(88)XXXXX.XXXX"></td>
+                        </tr> 
+                        <tr>
+                            <td>Data de Nascimento*:</td>
+                            <td><input type="date" required></td>
+                            <td>Naturalidade</td>
+                            <td><input type="text" value="Brasileira"></td>
+                        </tr> 
+                        <tr>
+                            <td>Escolariedade</td>
+                            <td>
+                                <select>
+                                    <option value="Escolha">--Situação--</option>
+                                    <option value="A">Alfabetização</option>
+                                    <option value="F">Ensino fundamental</option>
+                                    <option value="MC">Ensino Medio Completo</option>
+                                    <option value="SC">Superior Completo</option>
+                                </select>
+                            </td>
+                            <td>Estado civil</td>
+                            <td>
+                                <select>
+                                    <option value="Escolha">--Situação--</option>
+                                    <option value="Solteira">Solteira(o)</option>
+                                    <option value="Casada">Casada(o)</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <input type="submit" value="Salvar">
+                <input type="reset" value="limpar">
+            </form>
+        </div>
+        </script>
+    </body>
+</html>
